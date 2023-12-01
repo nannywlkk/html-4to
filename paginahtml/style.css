@@ -1,6 +1,107 @@
 .footer {
-    background-color: #db34a9; 
-    color: #fff; /* Texto en color blanco */
-    padding: 10px;
+    background-color: #BACDC7; 
+    color: #000000; 
+    padding: 50px;
     text-align: center;
+    font-size: larger;
 }
+
+body{ 
+background-color: rgb(99, 7, 22);
+
+}
+
+header{
+    background-color: #BACDC7;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    text-align: center;
+
+}
+section{
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+
+section image{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
+
+form{
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 15px !important;
+    }
+    
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        border-radius: 15px !important;
+    }
+    
+    
+    li {
+        margin-bottom: 10px;
+        border-radius: 15px !important;
+    
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        border-radius: 15px !important;
+    }
+    
+    
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border-radius: 15px !important;
+    }
+    
+    
+    input[type="submit"] {
+        background-color:#BACDC7;
+        color: white;
+        cursor: pointer;
+        border-radius: 15px !important;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #be3f3f;
+        border-radius: 15px !important;
+    }
+    
+    table {
+        margin-left: 33%;
+        border: 10px;
+        border-color:black;
+        border-radius:1%;
+        background-color: black;
+    
+    }
+    tr {
+        border:5px;
+        border-color:black;
+        background-color:rgb(214, 108, 108) ;
+    }
